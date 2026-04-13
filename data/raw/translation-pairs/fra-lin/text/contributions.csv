@@ -1,0 +1,3 @@
+example_id,source_lang,target_lang,source_text,target_text,domain,register,source_type,source_name,source_url,license,translator,review_status,notes
+fra-lin-000001,fra,lin,Bonjour.,Mbote.,daily_life,neutral,original,,,CC-BY-4.0,example_contributor,draft,
+fra-lin-000002,lin,fra,Nazali na posa ya mayi.,J'ai soif.,daily_life,neutral,community,,,CC-BY-4.0,example_contributor,reviewed,Exemple de contribution lingala vers francais

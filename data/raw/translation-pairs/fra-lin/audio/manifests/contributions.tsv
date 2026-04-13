@@ -1,0 +1,3 @@
+audio_path	example_id	speaker_id	transcript_lang	transcript_text	duration_seconds	sample_rate	horizontal_review	status	notes
+audio/clips/speaker-lin-001_fra-lin-000001.wav	fra-lin-000001	speaker-lin-001	lin	Mbote.	1.20	16000		draft	Exemple de clip pour contribution audio
+audio/clips/speaker-fra-001_fra-lin-000002.wav	fra-lin-000002	speaker-fra-001	fra	J'ai soif.	1.35	16000		reviewed	Exemple de lecture francaise d'une contribution validee

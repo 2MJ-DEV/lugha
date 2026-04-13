@@ -1,0 +1,3 @@
+speaker_id,language_code,display_name,gender,age_range,country,region,accent_or_variant,consent_status,license,contact_public,notes
+speaker-lin-001,lin,example_lingala_voice,undisclosed,adult,CD,Kinshasa,Kinshasa,granted,CC-BY-4.0,,Exemple de locuteur lingala
+speaker-fra-001,fra,example_french_voice,undisclosed,adult,CD,Goma,standard,granted,CC-BY-4.0,,Exemple de locuteur francais
