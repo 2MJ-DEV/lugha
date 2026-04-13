@@ -1,1 +1,12 @@
 example_id,source_lang,target_lang,source_text,target_text,domain,register,source_type,source_name,source_url,license,translator,review_status,notes
+fra-lua-000001,lua,fra,Moyo.,Bonjour.,daily_life,neutral,original,Jules MUKADI,,CC-BY-4.0,Jules MUKADI,draft,Salutation de base
+fra-lua-000002,lua,fra,Twasakidila wa bunyi.,Merci beaucoup.,daily_life,neutral,original,Jules MUKADI,,CC-BY-4.0,Jules MUKADI,draft,Politesse courante
+fra-lua-000003,lua,fra,Lupitadi ludi penyi ?,Ou est l'hopital ?,health,neutral,original,Jules MUKADI,,CC-BY-4.0,Jules MUKADI,draft,Question utile en sante
+fra-lua-000004,lua,fra,Tuyayi kumbelu.,Allons a la maison.,daily_life,neutral,original,Jules MUKADI,,CC-BY-4.0,Jules MUKADI,draft,Deplacement quotidien
+fra-lua-000005,lua,fra,Ntwadila mayi malenga.,Apporte de l'eau propre.,health,neutral,original,Jules MUKADI,,CC-BY-4.0,Jules MUKADI,draft,Instruction simple
+fra-lua-000006,lua,fra,Eyowa.,Oui.,daily_life,neutral,original,Jules MUKADI,,CC-BY-4.0,Jules MUKADI,draft,Reponse affirmative
+fra-lua-000007,lua,fra,Toleji.,Non.,daily_life,neutral,original,Jules MUKADI,,CC-BY-4.0,Jules MUKADI,draft,Reponse negative
+fra-lua-000008,lua,fra,Ndi ne tshiji.,Je suis facher.,health,neutral,original,Jules MUKADI,,CC-BY-4.0,Jules MUKADI,draft,Sensation physique
+fra-lua-000009,lua,fra,Ndi ne nzala.,J'ai faim.,daily_life,neutral,original,Jules MUKADI,,CC-BY-4.0,Jules MUKADI,draft,Besoin de base
+fra-lua-000010,lua,fra,Indilayi kakese.,Attendez un peu.,daily_life,neutral,original,Jules MUKADI,,CC-BY-4.0,Jules MUKADI,draft,Demande courte
+fra-lua-000011,lua,fra,Bishi wewa,Comment allez-vous ?,daily_life,neutral,original,Jules MUKADI,,CC-BY-4.0,Jules MUKADI,draft,Question utile en sante
