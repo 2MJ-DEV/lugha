@@ -85,6 +85,6 @@ Explication :
 
 Le depot contient maintenant un exemple minimal dans :
 
-- [data/raw/translation-pairs/fra-lin/text/contributions.csv](/c:/Users/HP/Dev/05_OPEN_SOURCE/contributions/lugha/data/raw/translation-pairs/fra-lin/text/contributions.csv:1)
-- [data/raw/translation-pairs/fra-lin/audio/speakers.csv](/c:/Users/HP/Dev/05_OPEN_SOURCE/contributions/lugha/data/raw/translation-pairs/fra-lin/audio/speakers.csv:1)
-- [data/raw/translation-pairs/fra-lin/audio/manifests/contributions.tsv](/c:/Users/HP/Dev/05_OPEN_SOURCE/contributions/lugha/data/raw/translation-pairs/fra-lin/audio/manifests/contributions.tsv:1)
+- [data/raw/translation-pairs/fra-lin/text/contributions.csv](data/raw/translation-pairs/fra-lin/text/contributions.csv:1)
+- [data/raw/translation-pairs/fra-lin/audio/speakers.csv](data/raw/translation-pairs/fra-lin/audio/speakers.csv:1)
+- [data/raw/translation-pairs/fra-lin/audio/manifests/contributions.tsv](data/raw/translation-pairs/fra-lin/audio/manifests/contributions.tsv:1)

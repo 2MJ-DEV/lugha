@@ -97,23 +97,23 @@ Le nettoyage et la preparation des jeux `train`, `validation` et `test` se feron
 - pas de donnees sensibles ou personnelles
 - pas de contenu haineux, illegal ou dangereux
 - toujours indiquer la source et la licence si le texte ne vient pas de vous
-- une contribution doit respecter le schema documente dans [docs/dataset-schema.md](/c:/Users/HP/Dev/05_OPEN_SOURCE/contributions/lugha/docs/dataset-schema.md)
+- une contribution doit respecter le schema documente dans [docs/dataset-schema.md](docs/dataset-schema.md)
 - les nouvelles contributions doivent aller d'abord dans `data/raw/`
 - ne pas ouvrir une collecte massive `fra-eng` ou `eng-*` avant validation suffisante du pivot francais
 
 ## Documentation
 
-- Guide de contribution : [CONTRIBUTING.md](/c:/Users/HP/Dev/05_OPEN_SOURCE/contributions/lugha/CONTRIBUTING.md)
-- Vision du projet : [docs/project-overview.md](/c:/Users/HP/Dev/05_OPEN_SOURCE/contributions/lugha/docs/project-overview.md)
-- Schema du dataset : [docs/dataset-schema.md](/c:/Users/HP/Dev/05_OPEN_SOURCE/contributions/lugha/docs/dataset-schema.md)
-- Politique de pivot : [docs/pivot-policy.md](/c:/Users/HP/Dev/05_OPEN_SOURCE/contributions/lugha/docs/pivot-policy.md)
-- Exemples de contribution : [docs/contributor-examples.md](/c:/Users/HP/Dev/05_OPEN_SOURCE/contributions/lugha/docs/contributor-examples.md)
-- Standards qualite : [docs/quality-guidelines.md](/c:/Users/HP/Dev/05_OPEN_SOURCE/contributions/lugha/docs/quality-guidelines.md)
+- Guide de contribution : [CONTRIBUTING.md](CONTRIBUTING.md)
+- Vision du projet : [docs/project-overview.md](docs/project-overview.md)
+- Schema du dataset : [docs/dataset-schema.md](docs/dataset-schema.md)
+- Politique de pivot : [docs/pivot-policy.md](docs/pivot-policy.md)
+- Exemples de contribution : [docs/contributor-examples.md](docs/contributor-examples.md)
+- Standards qualite : [docs/quality-guidelines.md](docs/quality-guidelines.md)
 
 ## Demarrage rapide
 
 1. Choisir une langue ou une paire de langues.
-2. Lire [CONTRIBUTING.md](/c:/Users/HP/Dev/05_OPEN_SOURCE/contributions/lugha/CONTRIBUTING.md).
+2. Lire [CONTRIBUTING.md](CONTRIBUTING.md).
 3. Remplir ou etendre les fichiers dans `data/raw/translation-pairs/...`.
 4. Si vous contribuez pour la voix, ajouter vos metadonnees dans `audio/speakers.csv` puis vos clips dans `audio/clips/`.
 5. Verifier que vos donnees suivent le format attendu.
