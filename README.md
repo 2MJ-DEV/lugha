@@ -29,6 +29,7 @@ data/
   raw/                    # donnees brutes collectees
     languages/            # informations par langue
     translation-pairs/    # contributions texte et audio non nettoyees
+    documents/            # documents bruts ou notes longues
   processed/              # donnees nettoyees et normalisees plus tard
     training-ready/       # versions preparees pour entrainement/evaluation
 docs/                     # documentation du projet
@@ -68,12 +69,14 @@ Chaque paire de traduction contient :
 
 - `text/` pour les phrases et traductions
 - `audio/` pour les voix, les manifests et les metadonnees locuteur
+- `data/raw/documents/` pour les documents bruts utiles au projet
 
 Les fichiers principaux a remplir sont :
 
 - `text/contributions.csv`
 - `audio/speakers.csv`
 - `audio/manifests/contributions.tsv`
+- `data/raw/documents/files/` pour les documents bruts, si necessaire
 
 ## Cycle de vie des donnees
 

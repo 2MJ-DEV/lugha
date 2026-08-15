@@ -27,6 +27,9 @@ Dans `data/raw/translation-pairs/<pair>/text/`, le fichier principal est :
 contributions.csv
 ```
 
+Les fichiers `train.csv`, `validation.csv` et `test.csv` ne sont pas maintenus dans `data/raw/`.
+Ils seront generes plus tard dans `data/processed/` au moment de preparer le dataset pour les modeles.
+
 Chaque ligne represente une contribution brute. Elle peut etre relue, corrigee, dedoublonnee ou reclassifiee plus tard.
 
 Chaque fichier CSV de `text/` doit utiliser les colonnes suivantes :
@@ -98,13 +101,32 @@ Dans `data/raw/translation-pairs/<pair>/audio/manifests/`, le fichier principal 
 contributions.tsv
 ```
 
-## 5. Dataset traite pour modeles
+Les manifests `train.tsv`, `validation.tsv` et `test.tsv` ne sont pas maintenus dans `data/raw/`.
+Ils seront generes plus tard dans `data/processed/training-ready/audio/` apres verification, alignement et nettoyage.
+
+## 5. Documents bruts
+
+Les documents ou notes longues qui peuvent servir de source au dataset sont places dans :
+
+```text
+data/raw/documents/files/
+```
+
+Regles :
+
+- garder uniquement des documents dont la source et la licence sont claires
+- ne pas ajouter de donnees personnelles ou sensibles
+- ne pas creer de splits `train`, `validation` ou `test` dans `data/raw/documents/`
+- produire les versions nettoyees plus tard dans `data/processed/training-ready/documents/`
+
+## 6. Dataset traite pour modeles
 
 Une fois les donnees nettoyees, les exports destines aux modeles pourront etre places dans :
 
 ```text
 data/processed/training-ready/text/
 data/processed/training-ready/audio/
+data/processed/training-ready/documents/
 ```
 
 Exemples de sorties attendues plus tard :

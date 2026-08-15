@@ -32,9 +32,10 @@ Des contributions impliquant l'anglais peuvent etre envisagees plus tard, mais s
 
 1. Choisir une langue ou une paire de langues.
 2. Verifier le dossier correspondant dans `data/raw/translation-pairs/`.
-3. Ajouter ou corriger les donnees sans changer les colonnes existantes.
-4. Documenter la source, le domaine et les remarques utiles.
-5. Relire avant de proposer la contribution.
+3. Utiliser les phrases francaises deja prechargees dans `source_text` quand elles existent.
+4. Ajouter uniquement l'equivalent dans `target_text`, ou corriger les donnees sans changer les colonnes existantes.
+5. Documenter la source, le domaine et les remarques utiles.
+6. Relire avant de proposer la contribution.
 
 Des exemples concrets sont disponibles dans [docs/contributor-examples.md](/c:/Users/HP/Dev/05_OPEN_SOURCE/contributions/lugha/docs/contributor-examples.md).
 
@@ -60,8 +61,12 @@ Des exemples concrets sont disponibles dans [docs/contributor-examples.md](/c:/U
 
 - privilegier des phrases utiles dans la vie reelle
 - couvrir plusieurs domaines : salutation, sante, commerce, transport, education, administration, technologie
-- indiquer le registre si necessaire : `formal`, `neutral`, `informal`
-- signaler les variantes regionales dans la colonne `notes`
+- pour les lignes prechargees depuis `fra.txt`, remplir d'abord `target_text`
+- laisser `domain`, `register`, `source_type`, `translator`, `review_status` et `notes` vides tant que `target_text` n'a pas encore ete rempli
+- indiquer le registre apres traduction si necessaire : `formal`, `neutral`, `informal`
+- mettre `review_status=draft` quand une traduction est ajoutee, puis `reviewed` apres relecture et `validated` apres validation finale
+- laisser `notes` vide si aucune precision n'est necessaire
+- utiliser `notes` seulement pour signaler une variante regionale, une ambiguite, un contexte culturel, une traduction non litterale ou une correction a verifier
 - si une traduction n'est pas litterale mais plus naturelle, la garder et l'expliquer si besoin
 
 ## Regles pour l'audio
@@ -71,7 +76,17 @@ Des exemples concrets sont disponibles dans [docs/contributor-examples.md](/c:/U
 - preferer des enregistrements clairs, sans musique ni bruit fort
 - un fichier audio doit correspondre a une seule phrase
 - garder le nom de fichier declare dans le manifest
+- dans `data/raw/`, utiliser seulement `audio/manifests/contributions.tsv`
+- les manifests `train.tsv`, `validation.tsv` et `test.tsv` seront generes plus tard dans `data/processed/`
 - si possible, utiliser `wav` 16 kHz mono ou un format documente de facon coherente
+
+## Regles pour les documents
+
+- placer les documents bruts dans `data/raw/documents/files/`
+- ajouter seulement des documents dont la source et la licence sont claires
+- ne pas ajouter de donnees personnelles ou sensibles
+- ne pas creer manuellement de fichiers `train`, `validation` ou `test` pour les documents bruts
+- les documents nettoyes et prets pour usage modele seront generes plus tard dans `data/processed/training-ready/documents/`
 
 ## Nommage
 

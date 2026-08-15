@@ -81,10 +81,10 @@ Explication :
 3. Enregistrer le clip dans `audio/clips/`
 4. Declarer le clip dans `audio/manifests/contributions.tsv`
 
-## Exemple deja present dans le depot
+## Modeles disponibles
 
-Le depot contient maintenant un exemple minimal dans :
+Le depot fournit des modeles de colonnes dans :
 
-- [data/raw/translation-pairs/fra-lin/text/contributions.csv](data/raw/translation-pairs/fra-lin/text/contributions.csv:1)
-- [data/raw/translation-pairs/fra-lin/audio/speakers.csv](data/raw/translation-pairs/fra-lin/audio/speakers.csv:1)
-- [data/raw/translation-pairs/fra-lin/audio/manifests/contributions.tsv](data/raw/translation-pairs/fra-lin/audio/manifests/contributions.tsv:1)
+- [templates/text-dataset-template.csv](../templates/text-dataset-template.csv)
+- [templates/speakers-template.csv](../templates/speakers-template.csv)
+- [templates/audio-manifest-template.tsv](../templates/audio-manifest-template.tsv)
